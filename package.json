@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "lodash": "^4.17.15",
+    "popper.js": "^1.15.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -30,7 +32,16 @@
       "plugin:vue/essential",
       "@vue/airbnb"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": 0,
+      "linebreak-style": 0,
+      "max-len": [
+        "warn",
+        {
+          "code": 175
+        }
+      ]
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
