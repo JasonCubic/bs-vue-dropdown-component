@@ -1,5 +1,5 @@
 <template>
-  <div ref="dropdown-menu" :class="{ show: showDropdown }" aria-labelledby="dropdownMenuButton">
+  <div ref="dropdown-menu" :class="{ show: showDropdown }">
     <slot></slot>
   </div>
 </template>
